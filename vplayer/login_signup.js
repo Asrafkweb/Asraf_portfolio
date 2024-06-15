@@ -100,7 +100,7 @@ login_frm.onsubmit = function() {
   if(email==correct_email){
     if(password==correct_password){
       sessionStorage.setItem("user",email);
-      window.location.replace("/profile /profile.html");
+      window.location.replace("vplayer/profile/profile.html");
     }
     else {
       var login_password_war=document.getElementById('login_password_war');
