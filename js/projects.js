@@ -21,7 +21,7 @@ var projects =[{
   project_name:'Myntra ecommerce clone',
   project_discription:'this is myntra ecommerce website clone fully functional with Cart options',
   using:['HTML','CSS','JavaScript','JQuery','Bootstrap'],
-  link:'/myntra/index.html'
+  link:'myntra/index.html'
 
 
 },
