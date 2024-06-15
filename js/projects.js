@@ -3,7 +3,7 @@ var projects =[{
   project_name:'Videos player & Contacts',
   project_discription:'Tihis is a videos player & Contact Saver. with signup & logIn function',
   using:['HTML','Css','JavaScript'],
-  link:'/my portfolio website /myntra/index.html'
+  link:'vplayer/Login.Html'
    
   
 },
