@@ -49,7 +49,3 @@ all_lang.forEach((lang)=>{
 })
 
 }
-
-
-
-alert("checking js work");
