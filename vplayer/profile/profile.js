@@ -25,7 +25,7 @@ var profile_name= document.getElementById('profile_name');
 // uploading of user image
 
 if(sessionStorage.getItem('user')==null){
-  window.location.replace('/login or Signup /Login.Html');
+  window.location.replace('vplayer/Login.Html');
   
 } 
 
