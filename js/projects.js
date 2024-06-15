@@ -1,5 +1,5 @@
 var projects =[{
-  image:'images /project-1.jpg',
+  image:'Images/project-1.jpg',
   project_name:'Videos player & Contacts',
   project_discription:'Tihis is a videos player & Contact Saver. with signup & logIn function',
   using:['HTML','Css','JavaScript'],
@@ -9,7 +9,7 @@ var projects =[{
 },
 {
   
-  image:'images /skill.png',
+  image:'Images/skill.png',
   project_name:'app',
   project_discription:'i am description',
   using:['HTML','CSS','JavaScript']
@@ -17,7 +17,7 @@ var projects =[{
 },
 {
   
-  image:'myntra/images/myntra.jpg',
+  image:'Images/myntra.jpg',
   project_name:'Myntra ecommerce clone',
   project_discription:'this is myntra ecommerce website clone fully functional with Cart options',
   using:['HTML','CSS','JavaScript','JQuery','Bootstrap'],
