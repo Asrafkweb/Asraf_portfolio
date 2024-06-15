@@ -31,7 +31,7 @@ var projects =[{
   project_name:'Eid Mubark !',
   project_discription:'This project take name from user and create dynamic a wishes for user and there is too many options',
   using:['HTML','CSS','JavaScript'],
-  link:'Eid/index.html'
+  link:'Eid/Eid.html'
 
 
     }           
