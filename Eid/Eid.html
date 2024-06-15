@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+    <script src="http://stpamitkumar.000webhostapp.com/fa_fa_icon_5_pro/icon.js"></script>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Eid Mubarak!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "maven pro",snas-serf;
+
+        }
+
+        #firstpage {
+
+            height: 100vh;
+            width: 100%;
+            background: purple;
+            float: left;
+            overflow: hidden;
+            display: none;
+            background-image: url("images/background.jpeg");
+            background-size: cover;
+
+
+        }
+        .container {
+            height: 400px;
+            width: 95%;
+            box-shadow: 0px 0px 6px #0affff;
+            margin: 100px auto;
+            padding: 5px;
+            position: relative;
+            overflow: hidden;
+            background: rgba(0,0,0,0.5);
+            border-radius: 10px;
+
+
+        }
+        .happy-eid-text {
+            list-style: none;
+            display: block;
+            text-align: center;
+            color: #0affff;
+            margin-bottom: 10px;
+
+        }
+        .happy-eid-text li {
+            display: inline-block;
+            font-size: 40px;
+            font-weight: bolder;
+            font-family: serif;
+            animation: eid-animation 1.5s infinite linear;
+        }
+        .happy-eid-text li:nth-child(1) {
+            animation-delay: 0.1s;
+        }
+        .happy-eid-text li:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        .happy-eid-text li:nth-child(3) {
+            animation-delay: 0.3s;
+        }
+        .happy-eid-text li:nth-child(4) {
+            animation-delay: 0.4s;
+        }
+        .happy-eid-text li:nth-child(5) {
+            animation-delay: 0.5s;
+        }
+        .happy-eid-text li:nth-child(6) {
+            animation-delay: 0.6s;
+        }
+        .happy-eid-text li:nth-child(7) {
+            animation-delay: 0.7s;
+        }
+        .happy-eid-text li:nth-child(8) {
+            animation-delay: 0.8s;
+        }
+        .happy-eid-text li:nth-child(9) {
+            animation-delay: 0.9s;
+        }
+@keyframes eid-animation
+        {
+            0%
+            {
+                transform: translateY(0);
+                margin-left: 0px;
+
+            }
+            25%
+            {
+                transform: translateY(-20);
+                margin-left: 10px;
+                text-shadow: 0 15px 5px rgba(0, 0, 0, 0.685);
+                color: gold;
+            }
+            100%
+            {
+                transform: translateY(0);
+                margin-left: 0px;
+            }
+        }
+
+
+        #username {
+            filter: brightness(200%);
+            margin-top: 10px;
+            text-align: center;
+            font-family: serif,Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            color: gold;
+            text-shadow: 0px 0px 5px #0affff;
+            animation: clr 2s infinite;
+        }
+        .icon_s,.icon_s_r {
+            color: goldenrod;
+            animation: star 3s infinite;
+        }
+@keyframes clr {
+            0%
+            {
+                color: #0affff;
+                text-shadow: 0px 0px 5px #00ffff;
+            }
+            25%
+            {
+                color: white;
+                text-shadow: 0px 0px 5px red;
+            }
+            50%
+            {
+                color: gold;
+                text-shadow: 0px 0px 5px whitesmoke;
+            }
+            75%
+            {
+                color: #ff00ae;
+                text-shadow: 0px 0px 5px #ccc;
+
+            }
+            100% {
+                color: #22ff00;
+                text-shadow: 0px 0px 5px greenyellow;
+            }
+        }
+@keyframes star {
+            0%
+            {
+                color: #0affff;
+            }
+            25%
+            {
+                color: white;
+            }
+            50%
+            {
+                color: gold;
+            }
+            75%
+            {
+                color: rgba(0,0,0,0.5);
+
+            }
+            100% {
+                color: #00ffe1;
+            }
+        }
+        .icon_moon {
+            font-size: 60px;
+            position: absolute;
+            top: 65px;
+            left: 40px;
+            color: gold;
+        }
+        .wish {
+            margin-top: 10px;
+            text-align: justify;
+            color:#15F5BA;
+            font-family: serif;
+
+        }
+        .icon_s,.icon_s_r {
+            color: goldenrod;
+        }
+
+
+
+
+        .animate__pulse {
+            animation-iteration-count: infinite;
+        }
+        .flag {
+            height: 20px;
+            width: 50px;
+            border: 1px solid yellow;
+        }
+        .duaa {
+            margin-top: 7px;
+            height: 50px;
+            width: 100%;
+
+            display: flex;
+            font-family: cursive!important;
+            font-size: 15px;
+            color: silver;
+
+        }
+        .pic {
+
+            height: 15px;
+        }
+        .moon_img {
+            height: 130px;
+            margin: -10px;
+            margin-left: 50%;
+            transform: translate(-50%);
+            filter: brightness(160%);
+
+
+        }
+
+        .eid {
+
+            width: 150px;
+            height: 70px;
+            float: right;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        .masjid {
+            position: absolute;
+            top: -60px;
+            right: -10px;
+            filter: drop-shadow(0px 0px 10px black);
+            filter: brightness(150%);
+            height: 130px;
+            border: 1px solid black
+
+
+            cursor: pointer;
+
+
+        }
+
+        .f_book {
+            font-size: 40px;
+            color: blue;
+            background: white;
+            border-radius: 50%;
+            margin-right: 5px;
+            box-shadow: 0px 0px 10px white;
+            cursor: pointer;
+              
+
+        }
+        .f_book:hover {
+            color: blue;
+            background: white;
+        }
+
+
+
+        .logo {
+          position: absolute;
+              bottom: 20px;
+              left:20px;
+            margin-top: -10px;
+            float: left;
+            display: flex;
+            align-items: center;
+
+
+
+
+
+        }
+        .devlop {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 10px;
+
+        }
+        .devloper {
+            text-decoration: underline;
+            text-decoration-color: white;
+            color: #0affff;
+        }
+        .m_name {
+            font-family: cursive;
+            color: gold;
+        }
+        /* second page */
+        #second_page {
+            height: 100vh;
+            width: 100%;
+            background-image: url("images/first.jpeg");
+            background-size: cover;
+            backface-visibility: 50%;
+            float: left;
+            display: block;
+            overflow: hidden;
+        }
+        .s_container {
+            width: 370px;
+              height: 280px;
+            margin: 100px auto;
+            
+            box-shadow: 0px 0px 10px #0affff;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            
+        }
+        .contain {
+            width: 100%;
+
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .head {
+            text-align: center;
+            font-family: serif;
+            color: #0affff;
+            margin-top: 10px;
+        }
+        #user_value{
+            width: 100%;
+            padding: 10px;
+            background: inherit;
+            outline: none;
+            border: 2px solid #0affff;
+            border-radius: 15px;
+            margin: 25px 0;
+            color: #0affff;
+            padding-left: 3px;
+            font-size: 15px;
+
+        }
+        .animate__fadeInDown {
+            animation-delay: 0.7s;
+        }
+        #user_value::placeholder,#change_name::placeholder {
+          color:#fff;
+          opacity: 0.7;
+        }
+        #btn {
+
+            width: 100%;
+            background: #0affff;
+            color: black;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 15px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            font-weight: bold;
+            animation: btn 0.7s;
+            overflow: hidden;
+
+
+        }
+        #btn:hover {
+            box-shadow: 0px 0px 10px #fff;
+            color: black;
+            border: 2px solid black;
+        }
+@keyframes btn {
+            0% {
+                height: 10px;
+                width: 10px;
+                border-radius: 100%;
+                transform: translateY(500px);
+                background: white;
+
+
+            }
+            80% {
+                height: 10px;
+                width: 10px;
+                border-radius: 100%;
+                background: white;
+
+            }
+            100% {
+                transform: translate(0px);
+
+            }
+
+        }
+        #warning {
+            color: red;
+            display: none;
+            font-family: serif;
+        }
+
+
+
+        #third_page {
+            height: 100vh;
+            width: 100%;
+
+            background: purple;
+            color: #0affff;
+            display: none;
+            float: left;
+
+        }
+        .offline {
+            width: 100%;
+            height: 200px;
+
+            margin: 200px auto;
+            text-align: center;
+
+        }
+        #reload {
+            padding: 10px;
+            font-size: 15px;
+            font-weight: bold;
+            background: #0affff;
+            color: purple;
+            border: none;
+            margin: 50px 0;
+            width: 50%;
+            border-radius: 10px;
+        }
+        .marque {
+            color: #0affff;
+        }
+
+    </style>
+
+
+</head>
+
+
+<body>
+    <div id="firstpage">
+        <div class="container animate__animated animate__bounceIn">
+            <div class="eid_text">
+                <ul class="happy-eid-text">
+                    <li>H</li>
+                    <li>A</li>
+                    <li>P</li>
+                    <li>P</li>
+                    <li>Y</li>
+                    <li></li>
+                    <li>E</li>
+                    <li>I</li>
+                    <li>D</li>
+                </ul>
+
+
+
+                <img src="https://static.vecteezy.com/system/resources/previews/021/462/622/non_2x/eid-mubarak-free-png.png"class="moon_img">
+
+                <h1 id="username" align="center">        <i class="fa-solid fa-star icon_s animate__animated animate__pulse"></i>Asraf Ali Khan        <i class="fa-solid fa-star icon_s_r animate__animated animate__pulse"></i>
+                </h1>
+                <p class="wish">
+                    May Allah bless you and your family with health, peace, and happiness this Eid & always. once again <b>Eid Mubarak !</b>
+                </p>
+                
+                <div class="duaa">
+                    <p>
+                        Don't forget to Duaa for Palestine  <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Flag_of_Palestine.png" alt="" class="pic">
+                    </p>
+                </div>
+
+                <div class="logo">
+                    <a href="https://www.facebook.com/asraf.alikhan.351">
+                        <i class="fa-brands fa-facebook f_book"></i>
+                    </a>
+
+                    <div class="devlop">
+                        <p class="devloper">
+                            DEVLOPER
+                        </p>
+                        <p class="m_name">
+                            Asraf Ali Khan
+                        </p>
+                    </div>
+
+                </div>
+                <div class="eid">
+                    <img src="https://static.vecteezy.com/system/resources/previews/021/772/427/non_2x/eid-mubarak-islamic-masjid-free-png.png" alt="" class="masjid">
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+<button id="tool-btn">Update Name </button>
+<div class="tool-container hide">
+  <div class="tools">
+  <label for="name">Change Name</label>
+  <input type="text" id="change_name" placeholder="Enter your Changes...">
+  <input type="text" id="user_write_wish" placeholder="You can Write wish or select">
+  <select name="" id="option" >
+    <option>Select Wishes</option>
+    <option id="opt1">May Allah grant you and your family a peaceful and prosperous life. ...</option>
+    <option id="opt2">
+      May this Eid bring you closer to your dreams and aspirations. Wishing you a joyous and successful Eid Mubarak!
+    </option>
+    <option id="opt3">
+      May the joy of Eid fill your heart and home with blessings and happiness. Eid Mubarak to you and your loved ones!
+    </option>
+    <option id="opt3">Wishing you a joyous and prosperous Eid filled with love, peace, and good health. Eid Mubarak!</option>
+    <option id="opt4">On this blessed occasion, may Allah shower you with endless blessings. Eid Mubarak to you and your family!</option>
+  </select>
+  <button id="btn_change_update">Update Changes</button>
+  <i class="fas fa-x close_change"></i>
+</div>
+</div>
+
+
+ <footer>
+        <div class="footer_container">
+            <div class="footer-content">
+                <p>Developed by Asraf Ali Khan | <a href="mailto: asrafalikhan757@gmail.com">asrafalikhan757@gmail.com</a></p>
+                <p>&copy; <span id="current-year"></span> All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+ </div>
+
+    <!-- user name -->
+
+    <div id="second_page">
+      <div class="blur_back">
+        <div class="s_container">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+            <div id="particles-js"></div>
+            <div class="user-front">
+            <h1 class="head animate__animated animate__zoomInDown">Eid Mubarak !</h1>
+            <input type="text" id="user_value" placeholder="Enter your good name ex: Asraf" class="animate__animated animate__fadeInDown">
+            <p id="warning">
+                <i class="fa-solid fa-circle-exclamation"></i> Please Enter your Name
+            </p>
+            <button id="btn">See Magic</button>
+            <marquee behavior="scroll" direction="left" scrollamount="10"class="marque">Eid Mubarak ! Eid-ul-Fitr is a time to celebrate blessings, spread love, and create beautiful memories. Wishing you a joyful Eid with your dear ones. Eid Mubarak! </marquee>
+
+        </div>
+
+        </div>
+      </div>
+    </div>
+    <div id="third_page">
+        <div class="offline">
+            <h1>No Internet access..</h1>
+            <h2>Please check your internet..</h2>
+
+            <button id="reload">Reload page</button>
+        </div>
+    </div>
+    <script>
+
+        function onlineCheck() {
+            var online = navigator.onLine;
+            if (online != true) {
+                var first = document.getElementById('firstpage');
+                var second = document.getElementById('second_page');
+                var third = document.getElementById('third_page');
+                first.style.display = 'none';
+                second.style.display = 'none';
+                third.style.display = 'block';
+
+            } else
+            {
+                var btn = document.getElementById('btn');
+                btn.onclick = function() {
+                    var username = document.getElementById('user_value').value;
+                    if (username != '') {
+
+                        var user = document.getElementById('username');
+
+                        user.innerHTML = '<i class="fa-solid fa-star icon_s animate__animated animate__pulse"></i>'+username+'<i class="fa-solid fa-star icon_s_r animate__animated animate__pulse"></i>';
+
+
+                        var firstpage = document.getElementById('firstpage');
+                        firstpage.style.display = 'block';
+                        var second_page = document.getElementById('second_page');
+                        second_page.style.display = 'none';
+                        if (username.length > 15) {
+                            user.style.fontSize = 20+'px';
+                        }
+                    } else
+                    {
+                        var username = document.getElementById('user_value');
+                        var war = document.getElementById('warning');
+                        war.style.display = 'block';
+
+                    }var username = document.getElementById('user_value');
+
+                    username.oninput = function() {
+                        var war = document.getElementById('warning');
+                        war.style.display = 'none';
+                    }
+                }
+            }
+        }
+        setInterval(onlineCheck, 1000);
+
+        document.getElementById('reload').onclick = function() {
+            location.reload();
+        }
+
+    </script>
+    <script src="/eid.html/particles.js"></script>
+    <script src="/eid.html/app.js"></script>
+    <script src="script.js"></script>
+    
+
+</body>
+
+</html>
