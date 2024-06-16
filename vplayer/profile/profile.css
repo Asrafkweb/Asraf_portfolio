@@ -101,7 +101,7 @@ display: none;
 .profile_header{
   height: 150px;
   width: 100%;
-  background-image: url("/profile /profile.jpg");
+  background-image: url("profile.jpg");
   background-size: cover;
   background-position: bottom;
   position :relative;
