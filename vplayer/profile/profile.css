@@ -47,8 +47,9 @@
 #user_icon{
   font-size: 90px;
   position :absolute;
-  top:30px;
-  left: 20px
+  top:40px;
+  left:50%;
+  transform: translate(-50%);
   
   
 
