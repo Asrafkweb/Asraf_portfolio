@@ -419,5 +419,34 @@ nav{
   overflow: hidden;
 }
 }
+/* footer code*/
+footer {
+    background-color: rgba(0,0,0,0.8);
+    color: #0affff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+}
 
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
 
