@@ -86,11 +86,11 @@ signout.onclick=function(){
 // contact coding
 var contact=document.getElementById('contact');
 contact.onclick=function(){
-  window.location.replace('contact/contact.html');
+  window.location.replace('../contact/contact.html');
 }
 
 
 var palyer=document.getElementById('player');
 player.onclick=function(){
-  window.location.replace('player/player.html');
+  window.location.replace('../player/player.html');
 }
