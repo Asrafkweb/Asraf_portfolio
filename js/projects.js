@@ -42,7 +42,7 @@ var projects =[{
   project_name:'Budget Management App',
   project_discription:'This is a budget management application. In this app we can track track our expense.auto check remaining blance..',
   using:['HTML','CSS','JavaScript','Bootstrap'],
-  link:'budget/BudgetApp/budget.html'
+  link:'Budget/budget.html'
 
 
     }           
