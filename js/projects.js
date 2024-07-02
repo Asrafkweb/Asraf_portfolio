@@ -9,14 +9,6 @@ var projects =[{
 },
 {
   
-  image:'Images/skill.png',
-  project_name:'app',
-  project_discription:'i am description',
-  using:['HTML','CSS','JavaScript']
-
-},
-{
-  
   image:'Images/myntra.jpg',
   project_name:'Myntra ecommerce clone',
   project_discription:'this is myntra ecommerce website clone fully functional with Cart options',
