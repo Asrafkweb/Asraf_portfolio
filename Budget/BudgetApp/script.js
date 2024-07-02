@@ -76,6 +76,7 @@ p_amt.addEventListener('keyup',()=>{
 })
 exp_btn.addEventListener('click',setExp);
 function setExp() {
+  exp_btn.innerHTML='Set expenses';
   if(p_name.value!='' && p_amt.value!=''){
   products.push({'name':p_name.value,
     'amt':p_amt.value
