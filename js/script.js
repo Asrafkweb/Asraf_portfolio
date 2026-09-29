@@ -55,3 +55,28 @@ document.addEventListener("DOMContentLoaded", function() {
     const currentYear = new Date().getFullYear();
     currentYearSpan.textContent = currentYear;
 });
+
+
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Stops the page from reloading
+    
+    let name = document.getElementById('name').value;
+    let email = document.getElementById('email').value;
+    
+    alert('Thank you, ' + name + '! Your message has been sent.');
+    
+    // Clear the form
+    this.reset();
+});
+
+
+
+const form = document.querySelector('.my-form');
+const button = form.querySelector('button');
+
+form.addEventListener('submit', function() {
+    // Show the client that the code is working instantly
+    button.textContent = 'Sending Message...';
+    button.style.backgroundColor = '#28a745'; // Changes button to friendly green
+    button.disabled = true;
+});
