@@ -419,6 +419,70 @@ nav{
   overflow: hidden;
 }
 }
+/* contact*/
+.contact{
+  text-align: center;
+}
+.my-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Clear Labels */
+.my-form label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 6px;
+}
+
+/* Beautiful Inputs & Dropdowns */
+.my-form input, 
+.my-form select, 
+.my-form textarea {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    background-color: #fafafa;
+}
+
+/* Visual Highlight when typing */
+.my-form input:focus, 
+.my-form select:focus, 
+.my-form textarea:focus {
+    border-color: #007bff;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.15);
+    outline: none;
+}
+
+/* Premium Interactive Button */
+.my-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.my-form button:hover {
+    background-color: #0056b3;
+}
+
 /* footer code*/
 footer {
     background-color: rgba(0,0,0,0.8);
