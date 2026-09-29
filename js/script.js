@@ -57,26 +57,45 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-document.getElementById('contactForm').addEventListener('submit', function(event) {
-    event.preventDefault(); // Stops the page from reloading
-    
-    let name = document.getElementById('name').value;
-    let email = document.getElementById('email').value;
-    
-    alert('Thank you, ' + name + '! Your message has been sent.');
-    
-    // Clear the form
-    this.reset();
-});
-
-
-
-const form = document.querySelector('.my-form');
+const form = document.getElementById('contactForm') || document.querySelector('.my-form');
 const button = form.querySelector('button');
 
-form.addEventListener('submit', function() {
-    // Show the client that the code is working instantly
+form.addEventListener('submit', function(event) {
+    // 1. Stop the page from standard reloading so we can handle it smoothly
+    event.preventDefault(); 
+    
+    // 2. Turn the button green and show loading status instantly
+    const originalText = button.textContent;
     button.textContent = 'Sending Message...';
-    button.style.backgroundColor = '#28a745'; // Changes button to friendly green
+    button.style.backgroundColor = '#28a745'; 
     button.disabled = true;
+
+    // 3. Send the data to FormSubmit.co automatically in the background
+    fetch(form.action, {
+        method: "POST",
+        body: new FormData(form),
+        headers: {
+            'Accept': 'application/json'
+        }
+    })
+    .then(response => {
+        if (response.ok) {
+            // SUCCESS: The email was successfully sent to your inbox!
+            alert('Thank you! Your message has been sent successfully.');
+            form.reset(); // Clear the text boxes
+        } else {
+            // ERROR from server
+            alert('Oops! There was a problem sending your message.');
+        }
+    })
+    .catch(error => {
+        // NETWORK ERROR
+        alert('Network error. Please try again.');
+    })
+    .finally(() => {
+        // 4. Reset the button back to normal no matter what happens
+        button.textContent = originalText;
+        button.style.backgroundColor = ''; 
+        button.disabled = false;
+    });
 });
