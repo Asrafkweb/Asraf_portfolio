@@ -7,5 +7,5 @@ var projects=[
  {title:'E-commerce Store UI',image:thumb('#10b981','#3b82f6','Store'),description:'Product grid, cart drawer and checkout flow for a small online shop.',tags:['React','Tailwind','JavaScript'],link:'#'},
  {title:'Ads Performance Dashboard',image:thumb('#8b5cf6','#ec4899','Analytics'),description:'Dashboard tracking Google Ads and Meta Ads results with conversion charts.',tags:['JavaScript','Google Ads','Meta Ads'],link:'#'},
  {title:'Videos player ',image:thumb('#0ea5e9','#6366f1','Videos player'),description:'In this vides player you can play video from local store or online links',tags:['HTML','CSS','JavaScript'],link:'projects/player/player.html'},
- {title:'Budget management mini project',image:thumb('#f43f5e','#f59e0b','AI Tool'),description:'In the system you can add your budget and Expenses',tags:['HTML5','Css','JavaScript'],link:'BudgetApp/budget.html'}
+ {title:'Budget management mini project',image:thumb('#f43f5e','#f59e0b','AI Tool'),description:'In the system you can add your budget and Expenses',tags:['HTML5','Css','JavaScript'],link:'Budget/budget.html'}
 ];
